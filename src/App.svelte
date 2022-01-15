@@ -23,7 +23,8 @@
 	}
 
 	const stored = localStorage.todos
-	let todosArr = JSON.parse(stored)
+
+	let todosArr = stored ? JSON.parse(stored) : [{id: Math.random() * 100, text: 'Заценить мою приложушку', done: false}, {id: Math.random() * 100, text: 'Написать мне, какой я молодец', done: false}]
 
 	const todos = writable(stored || JSON.stringify([{id: Math.random() * 100, text: 'Заценить мою приложушку', done: false}, {id: Math.random() * 100, text: 'Написать мне, какой я молодец', done: false}]))
 	
