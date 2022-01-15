@@ -1,9 +1,6 @@
 <script>
 	import { writable } from 'svelte/store'
 	
-
-	// let todosArr = [{id: Math.random() * 100, text: 'Заценить мою приложушку', done: false}, {id: Math.random() * 100, text: 'Написать мне, какой я молодец', done: false}]
-
 	let inputValue
 	function addTodo () {
 		if (inputValue) {
@@ -77,7 +74,7 @@
 		justify-content: center;
 		align-items: center;
 		color: #fff;
-		padding: 20px;
+		padding: 10px;
 	}
 	.container {
 		text-align: center;
@@ -91,7 +88,7 @@
 		display: flex;
 		flex-direction: column;
 		background-color: #25273C;
-		max-width: 500px;
+		width: min(600px, 100%);
 		height: 550px;
 		border-radius: 20px;
 		box-shadow: 3px -3px 10px 1px #000, -3px 3px 10px 1px #000, 3px 3px 10px 1px #000, -3px -3px 10px 1px #000;
