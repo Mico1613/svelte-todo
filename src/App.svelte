@@ -63,7 +63,7 @@
         background-image: url("https://lifeonphoto.com/img/images/2021/09/26/image001-38-1280x720.jpg");
 		backdrop-filter: blur(12px) brightness(.8);
 		overflow: hidden;
-		font-family: 'Fuzzy Bubbles', cursive;
+		font-family: 'Roboto', sans-serif;
 		font-size: 16px;
     }
 	
@@ -74,7 +74,7 @@
 		justify-content: center;
 		align-items: center;
 		color: #fff;
-		padding: 10px;
+		padding: 15px;
 	}
 	.container {
 		text-align: center;
